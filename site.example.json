@@ -1,0 +1,28 @@
+{
+  "_comment": "复制为 site.json 并填入你自己的平台参数。SKILL.md 里用 <angle-bracket> 标记的名字都对应这里的字段。",
+  "platform": {
+    "scheme": "http",
+    "host": "PLATFORM_HOST",
+    "port": 88
+  },
+  "fileServer": {
+    "scheme": "http",
+    "host": "FILE_HOST",
+    "port": 1936
+  },
+  "jumpUrl": "https://LMS_HOST/NoMasterJumpPage.aspx?URL=jwcZhjx&FPC=page:jwcZhjx",
+  "paths": {
+    "coursePlatform": "/ve/back/coursePlatform/coursePlatform.shtml",
+    "courseResource": "/ve/back/coursePlatform/courseResource.shtml",
+    "resourceSpace": "/ve/back/resourceSpace.shtml"
+  },
+  "xqCode": "XQ_CODE",
+  "shareRoot": "\\\\FILESERVER\\shared\\<your-folder>\\课件",
+  "folderMap": {
+    "平台课程名与共享盘文件夹名不一致时填这里": "共享盘实际文件夹名"
+  },
+  "browser": {
+    "profile": "C:\\\\Users\\\\<you>\\\\AppData\\\\Local\\\\dsh-computer-use-win\\\\agent-browser\\\\kept-edge"
+  },
+  "docType": "1"
+}

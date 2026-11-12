@@ -1,0 +1,11 @@
+﻿# 本地站点参数（含真实域名/路径）不要提交
+site.json
+work/
+staging/
+
+# 账号密码
+credentials.json
+
+node_modules/
+.DS_Store
+Thumbs.db
